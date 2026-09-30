@@ -116,7 +116,7 @@ The backup format is not yet frozen: the app is pre-release, so it may change wi
 
 ## Editing the About us page
 
-The **About us** tab is driven by one constant near the top of the script in `ipon-tracker.html`:
+The **About us** tab is driven by one constant near the top of the script in `index.html`:
 
 ```js
 var ABOUT={
@@ -163,11 +163,11 @@ All text is escaped, so it is shown exactly as typed. The page always ends with 
 
 ## Running and hosting
 
-Open `ipon-tracker.html` in any modern browser, or host it anywhere that serves static files over HTTPS (or open it from disk). Account passwords need the browser's Web Crypto API; if a browser doesn't provide it, sign-up and sign-in are disabled rather than falling back to something weaker. It also runs as a published Claude artifact. Web fonts (Bricolage Grotesque and Instrument Sans) load from Google Fonts; if they can't load, system fonts are used.
+Open `index.html` in any modern browser, or host it anywhere that serves static files over HTTPS (or open it from disk). Account passwords need the browser's Web Crypto API; if a browser doesn't provide it, sign-up and sign-in are disabled rather than falling back to something weaker. It also runs as a published Claude artifact. Web fonts (Bricolage Grotesque and Instrument Sans) load from Google Fonts; if they can't load, system fonts are used.
 
 ## Development
 
-There is nothing to install. Edit `ipon-tracker.html` and reload. See `CLAUDE.md` for the code layout, conventions, a syntax check, and a manual test list.
+There is nothing to install. Edit `index.html` and reload. See `CLAUDE.md` for the code layout, conventions, a syntax check, and a manual test list.
 
 ## License
 
